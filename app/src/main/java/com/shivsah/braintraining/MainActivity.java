@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         //answer generator
 
         int currOption = rand.nextInt(4);
-        int error = rand.nextInt(17)+1;
+        int error = rand.nextInt(17)+3;
         switch (currOption){
             case 0:
                 ans1.setText(Integer.toString(answer));
